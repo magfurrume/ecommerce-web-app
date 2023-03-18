@@ -1,0 +1,59 @@
+.carousel-indicators .active {
+    background-color: #034E53 !important;
+    border: 3px solid #034E53;
+}
+
+.carousel-indicators {
+    z-index: 1;
+}
+
+.carousel-indicators li {
+    background-color: #AA9393;
+    border-radius: 10px;
+    width: 36px;
+    height: 3px;
+    border: 3px solid #AA9393;
+}
+.producCateCaro{
+    padding: 30px 20px;
+}
+.producCateCaro .card{
+    width: 200px;
+    height: 199px;
+    z-index: 1;
+    margin: 0 15px;
+}
+.producCateCaro .cateTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: -10px;
+    top: 150px;
+    margin: 0 10px;
+    background: rgba(254, 249, 249, 0.95);
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.57);
+    z-index: 2;
+    justify-content: space-between;
+}
+.poly{
+    position: absolute;
+    width: 9.05px;
+    height: 15.06px;
+    left: 5.72px;
+    top: 143.54px;
+    background: #220F0F;
+    transform: rotate(-115.94deg);
+}
+.cateTitle p{
+    font-size: 15px;
+}
+.cateTitle a{
+    color: #14B1F0;
+    text-decoration: none;
+}

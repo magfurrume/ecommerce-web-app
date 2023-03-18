@@ -1,0 +1,102 @@
+.footerTop {
+    background-color: #393939;
+    height: 404px;
+    margin: 150px 0 0 0;
+}
+
+.footerBottonm {
+    height: 59px;
+    background: #161616;
+    display: flex;
+    color: #ffff;
+    align-items: center;
+
+}
+
+.footerBottonm {
+    font-size: 18px;
+}
+
+.top-div {
+    padding-top: 56px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footerRightContents {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footerTitle {
+
+    color: #00CAD7;
+    font-size: 20px;
+
+}
+
+.footerPaymentInfo {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 11px;
+}
+
+.paymentImg {
+    width: 97px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: white;
+
+}
+.contactinfo{
+    padding: 14px 0;
+}
+
+.contactinfo p {
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    color: #00CAD7;
+}
+
+.contactinfo a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .contactNum a {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+.foofterSocial{
+    gap: 10px
+}
+
+.foofterSocial a{
+    color: white;
+    text-decoration: none;
+
+}
+.foofterSocialIcon{
+    font-size: 20px!important;
+}
+
+
+.footerRightContents a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    line-height: 16px;
+}
+.footerQuestion p{
+    font-size: 18px;
+    line-height: 17px; 
+    letter-spacing: 0.2px;
+    color: #00CAD7;
+    padding: 14px 0;
+}

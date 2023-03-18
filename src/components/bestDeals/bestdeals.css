@@ -1,0 +1,260 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.bestDealMiniCard {
+    max-height: 280px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    margin: 5px;
+    padding: 23px;
+    margin: 5px 0;
+}
+
+.bestdealproductName {
+    font-size: 20px;
+}
+
+.bestdealCurrPrice {
+    font-size: 20px;
+    color: #14B1F0;
+}
+
+.bestdealPrevPrice {
+    text-decoration-line: line-through;
+}
+
+.specialOfferImg {
+    width: 100%;
+    object-fit: contain;
+    height: 120px;
+}
+
+.specialoffertext {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #151A1B;
+}
+
+.specialoffertext span {
+    color: #0AAEB9;
+}
+
+.bestDealSavings {
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    width: 137px;
+    height: 91px;
+}
+
+.bestDealSavingsvalue {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #1A1414;
+    padding: 16.5px 24px;
+    width: 89px;
+    height: 58px;
+    margin: 0 auto;
+}
+
+.bestDealLeftBottom .specialoffertext span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #C82020;
+}
+
+.bestDealLeftBottom .bestdealCurrPrice {
+    color: #C82020;
+}
+
+.bestDealLeftBottom .bestDealSavings {
+    width: 90px;
+    height: 91px;
+    background: linear-gradient(90deg, #EE9CA7 0%, #FFDDE1 100%);
+    border-radius: 83px;
+    margin: 0 auto;
+}
+
+.bestDealLeftBottom .bestDealSavingsvalue {
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    padding: 16.5px;
+    color: #1A1414;
+}
+
+.bestDealLeftBottom .stock {
+    font-size: 14px;
+    color: #0AAEB9;
+}
+
+.bestDealLeftBottom img {
+    height: 172px;
+}
+
+.bestDealBigCard {
+    padding: 23px;
+    height: 545px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.bestDealMiddleTop {
+    display: flex;
+}
+
+.bestDealMiddleTop .bestDealSavings {
+    background: linear-gradient(90deg, #FF512F 0%, #DD2476 100%);
+    border-radius: 83px;
+    width: 141px;
+    height: 143px;
+    z-index: 1;
+    position: absolute;
+    top: 3%;
+    right: 0;
+}
+
+.bestDealMiddleTop .specialoffertext {
+    z-index: 1;
+}
+
+.bestDealMiddleTop .specialOfferImg {
+    position: absolute;
+}
+
+.bestDealMiddle .specialOfferImg {
+    height: 385px;
+    padding: 30px;
+}
+
+.bestDealMiddleTop .bestDealSavingsvalue {
+    font-size: 36px;
+    line-height: 44px;
+    padding: 26px 27px;
+    text-align: center;
+    width: auto;
+    color: #FFFFFF;
+}
+
+.bestDealMiddleBottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.bestDealrightTop .bestdealCurrPrice {
+    color: #15ADB7;
+}
+
+.bestDealrightTop .specialoffertext span {
+    color: #034E53;
+}
+
+.bestDealrightBottomTop {
+    display: flex;
+}
+
+.bestDealrightBottomBo .bestdealPrice {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.bestDealrightBottomTop .specialoffertext span {
+    color: #C82020;
+}
+
+.bestDealrightBottomBo .bestdealCurrPrice {
+    color: #B8A023;
+}
+
+.bestDealrightBottom .bestDealSavings {
+    width: 141px;
+    height: 143px;
+    background: linear-gradient(90deg, #F09819 0%, #EDDE5D 100%);
+    border-radius: 83px;
+    position: absolute;
+    top: 3%;
+    right: 0;
+}
+
+.bestDealrightBottomTop .specialOfferImg {
+    position: absolute;
+    left: -33px;
+    z-index: -1;
+    height: 156px;
+    padding: 20px;
+}
+
+.bestDealrightBottomTop .bestDealSavingsvalue {
+    font-size: 36px;
+    line-height: 44px;
+    padding: 26px 27px;
+    text-align: center;
+    width: auto;
+}
+
+.bestDealrightBottomBo .stock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 32px;
+    color: #C82020;
+}
+
+.bestDealrightTop .bestDealSavings {
+    width: 162px;
+    height: 103px;
+    background: linear-gradient(180deg, #EECFCC 0%, rgba(238, 207, 204, 0) 100%);
+    flex-grow: 0;
+}
+
+p {
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .bestDeals .section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bestDeals {
+        text-align: center;
+    }
+
+    .bestDealLeft,
+    .bestDealright {
+        display: flex;
+    }
+
+    .bestDealMiniCard,
+    .bestDealBigCard {
+        margin: 5px 5px;
+        padding: 10px;
+        max-height: 235px;
+    }
+    .bestDealMiniCard{
+        width: 50%;
+    }
+    .specialoffertext{
+        font-size: 25px;
+        line-height: 1;
+    }
+    .bestdealPrice {
+        font-size: 14px;
+        flex-direction: row-reverse;
+        display: flex;
+        justify-content: space-around;
+    }
+    .bestdealCurrPrice{
+        font-size: 16px;
+    }
+}

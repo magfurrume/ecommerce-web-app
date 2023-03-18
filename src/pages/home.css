@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.homePage{
+    top: 120px;
+    position: relative;
+}
+
+.sectionTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+}
+
+.sectionTitle span {
+    color: #00CAD7;
+}
